@@ -6,8 +6,8 @@ export const CallBackHook = () => {
     const [counter, setcounter] = useState(0)
 
     const incrementF = useCallback(
-      () => {
-        setcounter((value) => value+1)
+      (value) => {
+        setcounter((c) => c + value)
       },
       [],
     )
