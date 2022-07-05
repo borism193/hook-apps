@@ -4,14 +4,14 @@ export const useCounter = (initaialValue = 0) => {
     const [counter, setcounter] = useState(initaialValue)
 
 
-    const addHandle = (value = 0) => {
+    const addHandle = (value = 1) => {
         setcounter(counter+value)
     }
        
     
-    const substratcHandle = (value = 0) => {
+    const substratcHandle = (value = 1) => {
 
-        if (counter == 0) return
+        if (counter == 1) return
         setcounter(counter-value)
     }
 
