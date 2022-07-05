@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { FocusScreen } from './04-useRef/FocusScreen'
+import { Memorize } from './05-memos/Memorize'
+//import { FocusScreen } from './04-useRef/FocusScreen'
 //import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 //import { SimpleForm } from './02-useEffect/SimpleForm'
 //import { CounterApp } from './01-usestate/CounterApp'
@@ -9,6 +10,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FocusScreen />
+    <Memorize />
   </React.StrictMode>
 )
