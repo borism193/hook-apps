@@ -9,6 +9,7 @@ import { CallBackHook } from './05-memos/CallBackHook'
 //import { CounterApp } from './01-usestate/CounterApp'
 //import { HooksApp } from './HooksApp'
 import './index.css'
+import './05-useReducer/reducer-reducer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
